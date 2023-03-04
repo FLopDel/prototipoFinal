@@ -1,0 +1,217 @@
+nav {
+	a {
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+		margin: 15px;
+		border-radius: 5px;
+		font-weight: 600;
+		font-family: 'Cinzel Decorative', cursive;
+	}
+}
+//menu de la cabecera
+header {
+	display: flex;
+	height: auto;
+	width: auto;
+	background-color: black;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+// iconos y enlaces a otras paginas
+.logo {
+	margin-left: 10%;
+	height: 100px;
+	display: flex;
+}
+.menu2 {
+	display: flex;
+	justify-items: center;
+}
+#sesion {
+	width: 80px;
+}
+.corazon {
+	margin-top: 14px;
+	width: 80px;
+}
+.carrito {
+	margin-top: 7px;
+	width: 80px;
+}
+.producto {
+	display: flex;
+	img {
+		width: 20%;
+		border: 5px solid black;
+		border-radius: 5px;
+		margin: 20px;
+		margin-left: 25%;
+	}
+	h3 {
+		margin-top: 2%;
+	}
+}
+#ruta2 {
+	margin-left: 25%;
+	font-size: 20px;
+}
+.retoque {
+	position: absolute;
+	top: 52%;
+	left: 11%;
+}
+.talla {
+	position: absolute;
+	top: 50%;
+	left: 46.6%;
+	color: black;
+}
+.añadir {
+	position: absolute;
+	top: 60%;
+	left: 46.6%;
+	padding: 10px;
+	width: 200px;
+	height: auto;
+	border: 5px solid black;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+}
+.esqdere {
+	position: absolute;
+	top: 2%;
+	left: 72%;
+}
+.linea {
+	margin-left: 42%;
+	width: 300px;
+}
+.footer {
+	a {
+		color: black;
+	}
+	li {
+		margin-left: 50px;
+		padding: 10px;
+		text-decoration: none;
+		color: black;
+	}
+	h1 {
+		text-align: center;
+		padding: 10px;
+		color: black;
+	}
+}
+footer {
+	margin-top: 90px;
+	background-color: rgb(107, 105, 105);
+	color: white;
+	padding: 20px;
+}
+.redes {
+	display: block;
+	margin-left: 60%;
+}
+.facebook {
+	width: 100px;
+}
+.instagram {
+	width: 80px;
+}
+.twitter {
+	width: 100px;
+}
+@media (max-width: 799px) {
+	nav {
+		a {
+			text-decoration: none;
+			color: white;
+			padding: 9px;
+			margin: 5px;
+			border-radius: 5px;
+			font-weight: 600;
+			font-family: 'Cinzel Decorative', cursive;
+		}
+	}
+	header {
+		display: flex;
+		height: auto;
+		background-color: black;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+		margin-bottom: 50px;
+	}
+	.menu2 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+		margin: 2px;
+		padding: 2px;
+		background-color: black;
+	}
+	#sesion {
+		width: 50px;
+	}
+	.corazon {
+		margin-top: 10px;
+		width: 50px;
+	}
+	.carrito {
+		margin-top: 2px;
+		width: 50px;
+	}
+}
+@media (max-width: 1040px) {
+	nav {
+		a {
+			text-decoration: none;
+			color: white;
+			padding: 9px;
+			margin: 5px;
+			border-radius: 5px;
+			font-weight: 600;
+			font-family: 'Cinzel Decorative', cursive;
+		}
+	}
+	header {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+		background-color: black;
+		align-items: center;
+		padding: 14px;
+		margin-bottom: 50px;
+	}
+	.menu2 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		margin: 2px;
+		padding: 2px;
+	}
+	#sesion {
+		width: 50px;
+	}
+	.corazon {
+		margin-top: 10px;
+		width: 50px;
+	}
+	.carrito {
+		margin-top: 2px;
+		width: 50px;
+	}
+}

@@ -1,0 +1,137 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	&::before {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	&::after {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+//ruta d ela pagina
+.ruta{
+	margin-left: 15.7%;
+	font-size: 20px;
+}
+
+.titulo{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+	margin-left: 15%;
+	padding: 10px;	
+	text-decoration: solid;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #455a64;
+	line-height: 1.5;
+}
+.contenedor {
+	max-width: 1170px;
+	margin: 0 auto 1rem;
+	padding: 1.5rem;
+}
+.wrapper {
+	box-shadow: 0 0 20px 0 rgba(69, 90, 100, .7);
+	border-radius: 5px;
+}
+.servicios {
+	list-style: none;
+	text-align: center;
+}
+.logo {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.info-empresa {
+	padding: 1rem;
+	background-color: #ccd7dc;
+	h3 {
+		text-align: center;
+	}
+}
+.nombre-empresa {
+	color: #263137;
+}
+
+// formulario
+.contacto {
+	padding: 1rem;
+	background-color: #eaeff1;
+	h3 {
+		margin-bottom: 1rem;
+	}
+}
+.formulario {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1.25rem;
+	label {
+		display: block;
+	}
+	button {
+		width: 100%;
+		padding: 1rem;
+		border: 1px solid #ccd7dc;
+	}
+	input {
+		width: 100%;
+		padding: 1rem;
+		border: 1px solid #ccd7dc;
+	}
+	textarea {
+		width: 100%;
+		padding: 1rem;
+		border: 1px solid #ccd7dc;
+		resize: none;
+	}
+}
+.full {
+	grid-column: 0.3333333333;
+}
+
+//boton de enviar
+.boton-enviar {
+	background-color: #ccd7dc;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	&:focus {
+		background-color: #455a64;
+		color: #fff;
+		outline: 0;
+		transition: background-color 2s ease-out;
+	}
+	&:hover {
+		background-color: #455a64;
+		color: #fff;
+		outline: 0;
+		transition: background-color 2s ease-out;
+	}
+}
+@media screen and (min-width: 700px) {
+	.wrapper {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+	.servicios {
+		text-align: left;
+	}
+	.info-empresa {
+		h3 {
+			text-align: left;
+			margin-bottom: 0.5rem;
+		}
+	}
+}

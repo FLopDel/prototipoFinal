@@ -1,0 +1,85 @@
+// tabla donde se mostraran los datos
+.dataTable {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	tbody {
+		tr {
+			td {
+				img {
+					width: 150px;
+					height: 150px;
+				}
+			}
+			display: table-cell;
+		}
+		display: block;
+		width: auto;
+		position: relative;
+		overflow-x: auto;
+		td {
+			display: block;
+		}
+	}
+	thead {
+		display: block;
+		float: left;
+		tr {
+			display: block;
+		}
+	}
+	th {
+		display: block;
+		padding: .625em;
+		line-height: 1.5em;
+		border-bottom: 1px dashed #ccc;
+		box-sizing: border-box;
+		overflow-x: hidden;
+		overflow-y: auto;
+		text-align: left;
+		background: rgba(0, 0, 0, 0.14);
+		border-bottom: 1px dashed #aaa;
+	}
+	td {
+		padding: .625em;
+		line-height: 1.5em;
+		border-bottom: 1px dashed #ccc;
+		box-sizing: border-box;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	tr {
+		&:nth-child(odd) {
+			background: rgba(0, 0, 0, 0.07);
+		}
+	}
+}
+@media screen and (min-width: 50em) {
+	.dataTable {
+		display: table;
+		thead {
+			display: table-header-group;
+			float: none;
+			tr {
+				display: table-row;
+			}
+		}
+		tbody {
+			display: table-row-group;
+			tr {
+				display: table-row;
+			}
+			td {
+				display: table-cell;
+			}
+		}
+		th {
+			display: table-cell;
+			width: auto;
+		}
+		td {
+			width: auto;
+		}
+	}
+}

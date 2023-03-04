@@ -1,0 +1,72 @@
+
+.container {
+	margin-top: 100px;
+}
+#clientes {
+	margin-bottom: 20px;
+}
+.bs-example {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.imagenesPequenas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	img {
+		width: 50px;
+		margin: 5px;
+	}
+}
+//boton de compra
+.botons {
+	margin: 20px;
+	display: inline-block;
+	font-size: 40px;
+}
+.media {
+	#fav {
+		margin: 10px;
+		width: 40px;
+	}
+}
+
+//eleccion de colores
+.imagenesColor {
+	margin-left: 10px;
+	img {
+		width: 30px;
+		height: 30px;
+		border-radius: 20px;
+	}
+}
+
+//eleccion de talla de ropa
+.talla {
+	margin-left: 30px;
+	input {
+		border-radius: 20px;
+	}
+}
+@media (max-width: 425px) {
+	.media {
+		display: flex;
+		flex-direction: column;
+	}
+	.media-body {
+		display: block;
+		margin: auto;
+	}
+	.imagenesPequenas {
+		display: none;
+	}
+	#fotoGrande {
+		display: block;
+		margin-right: auto;
+		margin-left: 16px;
+		margin-bottom: 20px;
+	}
+}

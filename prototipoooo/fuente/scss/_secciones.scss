@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+// muestra las dintintas secciones de ropa
+.secciones {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	div {
+		margin: 50px;
+	}
+	h1 {
+		font-family: 'Cinzel Decorative', cursive;
+		color: black;
+		-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+		text-align: center;
+	}
+	img {
+		border: 5px solid black;
+		border-radius: 5px;
+	}
+}
+
+//banner publicitario
+.banner {
+	display: flex;
+	justify-content: center;
+}
+@media (min-width: 500px) and (max-width: 800px) {
+	.secciones {
+		display: flex;
+		flex-direction: column;
+		margin-right: 100px;
+		margin-left: 90px;
+		div {
+			flex-direction: column;
+			margin: 20px 50px;
+		}
+		h1 {
+			font-family: 'Cinzel Decorative', cursive;
+			color: black;
+			-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+		}
+		img {
+			border: 5px solid black;
+			border-radius: 5px;
+			margin-right: 50%;
+		}
+	}
+}
+@media (min-width:800px) and (max-width: 1199px) {
+	.secciones {
+		display: flex;
+		flex-direction: column;
+		margin-right: 100px;
+		margin-left: 90px;
+		div {
+			flex-direction: column;
+			margin: 20px 50px;
+		}
+		h1 {
+			font-family: 'Cinzel Decorative', cursive;
+			color: black;
+			-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+		}
+		img {
+			border: 5px solid black;
+			border-radius: 5px;
+			margin-right: 50%;
+		}
+	}
+}

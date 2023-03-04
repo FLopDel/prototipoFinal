@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/main.css">
+
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <!--Menu izquierdo-->
+        <a href="../index.html" class ="logo">
+            <img src="../img/logo.png" alt="logo">
+        </a>
+
+        <nav>
+            <a href="../layout/hombre.html">Hombre</a>
+            <a href="../layout/mujer.html">Mujer</a>
+            <a href="../layout/contacto.html">Contacto</a>
+
+           
+        </nav>
+
+        <!--Menu derecho-->
+        <nav class="menu2">
+            <a href="../layout/favoritos.html">
+                <img class="corazon" src="../img/corazon.png" alt="corazon">
+            </a>
+
+            <a href="../layout/cesta.html">
+                <img class="carrito" src="../img/carrito.png" alt="carrito">
+            </a>
+
+            <a href="../layout/registro.html"><img src="../img/login.png" id="sesion" alt="login"></a>
+
+        </nav>
+
+    </header>
+    <!--MAIN-->
+    
+    <main>
+        <p class="ruta"><a href="../index.html">Inicio/</a><a href="../layout/contacto.html">Contacto</a></p>
+
+        <h1 class="titulo">Contacto</h1>
+
+        <div class="contenedor">
+            <div class="wrapper animated bounceInLeft">
+              <div class="info-empresa">
+                <h3>ClotheShop</h3>
+                <ul class="servicios">
+                  <li><i class="fa fa-map-marker"></i> Calle San Fernando, 44. 18001. Granada (Granada)</li>
+                  <li><i class="fa fa-mobile"></i> 958 658 235</li>
+                  <li><i class="fa fa-envelope"></i> clotheshopgranada@gmail.com</li>
+                </ul>
+              </div>
+              <div class="contacto">
+                <h3>Enviar Correo</h3>
+                <form class="formulario">
+                  <p>
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" required>
+                  </p>
+                  <p>
+                    <label>Correo</label>
+                    <input type="email" name="email" required>
+                  </p>
+                  <p>
+                    <label>Teléfono</label>
+                    <input type="text" name="teléfono" required>
+                  </p>
+                  <p class="full">
+                    <label>Mensaje</label>
+                    <textarea name="mensaje" required></textarea>
+                  </p>
+                  <p class="full">
+                    <button class="boton-enviar">Enviar</button>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <!--Titulo del footer-->
+        <h1>Más Información</h1>
+
+        <!--Informacion sobre la tienda-->
+        <ul>
+            <li><a href="#">Envio y Entrega</a></li>
+            <li><a href="#">Política y privacidad</a></li>
+            <li><a href="#">Información sobre tallas</a></li>
+            <li><a href="#">Devoluciones y cambios</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+
+        <!--Imagenes de las redes sociales-->
+        <div class="redes">
+            <a href="#"><img src="../img/fc.png" alt="facebook" class="facebook"></a>
+            <a href="#"><img src="../img/ig.png" alt="instagram" class="instagram"></a>
+            <a href="#"><img src="../img/tw.png" alt="twitter" class="twitter"></a>
+        </div>   
+    </footer>

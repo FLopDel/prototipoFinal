@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Producto</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="../scss/main.css">
+</head>
+<body>
+    <!--Menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="../index.html" class="navbar-brand">
+            <img src="../img/logoSinFondo.png" width="100" height="100" alt="CoolBrand">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="./hombre.html" class="nav-item nav-link">Hombre</a>
+                <a href="./mujer.html" class="nav-item nav-link">Mujer</a>
+                <a href="./contacto.html" class="nav-item nav-link">Contacto</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <a href="./favoritos.html" class="navbar-brand">
+                    <i class="bi bi-heart-fill"></i>
+                </a>
+                <a href="./cesta.html" class="navbar-brand">
+                    <i class="bi bi-bag"></i>
+                </a>
+                <a href="./registro.html" class="navbar-brand">
+                    <i class="bi bi-box-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Muestra de producto -->
+<div class="bs-example">
+  <ul class="list-unstyled">
+      <li class="media">  
+        <div class="imagenesPequenas">
+            <img src="../img/1ho-700px.jpg" class="mr-3" alt="Sample Image">
+            <img src="../img/1ho-700px.jpg" class="mr-3" alt="Sample Image">
+            <img src="../img/1ho-700px.jpg" class="mr-3" alt="Sample Image">
+        </div>
+          <img src="../img/1ho-300px.jpg" width="300" height="400" class="mr-3" alt="Sample Image" id="fotoGrande">
+          
+          <div class="media-body">
+              <h3 class="mt-0">Sudadera</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <h2>13.99€</h2>
+              <br>
+              <div class="imagenesColor">
+                <p>Color:</p>
+                <img src="../img/blanco-30.jpg" alt="blanco">
+                <img src="../img/rojo-30.jpg" alt="rojo">
+                <img src="../img/negro-30.jpg" alt="negro">
+              </div>
+              <br><br>
+              <div class="botons">
+                <button type="button" class="btn btn-primary" id="comprar">Comprar</button>
+                <i class="bi bi-heart" id="fav"></i> 
+              </div>
+
+          </div>
+      </li>
+  </ul>
+</div>
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-facebook"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-twitter"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-instagram"></i></a>
+    </section>  
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Suscribete a nuesta tienda y recibirá descuentos</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Correo Electrónico</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribirse
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Links -->
+    <section class="" >
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-lg-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase">Más Información</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Envio y Entrega</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Política y privacidad</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Información sobre tallas</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Devoluciones y cambios</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Términos y condiciones</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="#">ClotheShop.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" async defer type="module"></script>
+</body>
+</html>
